@@ -2,6 +2,9 @@
     padding: 0;
     margin: 0;
 }
+body{
+    font-family: sans-serif;
+}
 main{
     width: 100%;
     background-image:url(./main\ imgae.jpeg);
@@ -56,4 +59,44 @@ main{
 }
 .main-text button:hover{
     background-color: #240858;
+}
+.about{
+    display: flex;
+    background-image: linear-gradient(40deg, #E31836 7%, #FFFFFF 57%);
+}
+
+.img-right{
+    display: flex;
+    gap: 1rem;
+}
+.about-right{
+    width: 60%;
+    margin: 180px 20% 0px 60px ;    
+}
+.right-text{
+    margin-top: 10%;
+    font-family: "Poppins", Sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 32px;
+}
+.about-left{
+    width: 60%;
+    margin: 5% 0px 0px 5%;
+    font-size: 2rem;
+}
+.about-left h2{
+    margin-bottom: 50px;
+    font-weight:500;
+    font-family: "Poppins", Sans-serif;
+}
+hr{
+    width: 20%;
+    margin-bottom: 10px;
+    background-color: #240858;
+    height: 1px;
+    border:black;
 }

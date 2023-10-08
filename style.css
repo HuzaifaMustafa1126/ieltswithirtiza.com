@@ -100,3 +100,16 @@ hr{
     height: 1px;
     border:black;
 }
+.exp-video{
+    position: relative;
+    margin: auto;
+    width: 80%;
+}
+.exp-video h1{
+    margin: auto;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 3.7vw;
+}

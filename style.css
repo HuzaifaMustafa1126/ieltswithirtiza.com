@@ -2,6 +2,53 @@
     padding: 0;
     margin: 0;
 }
+nav{
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    margin: auto;
+    margin-left: 22.5%;
+}
+.logo{
+    background-color: #240858;
+    border-radius: 0px 0px 49px 49px;
+    height: 100px;
+    width: 95px;
+}
+.logo img{
+    margin-top: 10px;
+    margin-left: 7.5px;
+}
+.left-nav{
+    color: white;
+    background-color: #240858;
+    height: 45px;
+    width: 330px;
+    border-radius: 0px 0px 0px 20px
+}
+.l-text{
+    display: flex;
+    gap: 50px;
+    justify-content: right;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.r-text{
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.right-nav{
+    color: white;
+    background-color: #240858;
+    height: 45px;
+    width: 330px;
+    border-radius: 0px 0px 20px 0px
+}
+.text-home,.text-about,.text-whyus,.text-contact{
+    cursor: pointer;
+}
 body{
     font-family: sans-serif;
 }
